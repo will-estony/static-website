@@ -1,7 +1,5 @@
-var sum = 0;
-
-for(var i = 1; i <= 1000; i++){
-    sum += i;
+function onClick() {
+    document.getElementById("push-me").style.visibility = "hidden";
+    document.getElementById("dabbing-dad-container").style.visibility = "visible";
+    document.getElementById("caption-container").style.visibility = "visible";
 }
-
-window.alert("The sum of the numbers 1 to 1000 is " + sum);
